@@ -1,5 +1,5 @@
 # Target UI(In SAP GUI)
-![co03-target](https://user-images.githubusercontent.com/44318904/49877479-d6e22980-fe68-11e8-8f85-c28b452bc647.PNG)
+![co03-target](https://user-images.githubusercontent.com/44318904/49877886-bc5c8000-fe69-11e8-8852-71452b2f8409.PNG)
 
 # 결과 화면
-![co03-result](https://user-images.githubusercontent.com/44318904/49875487-75b85700-fe64-11e8-8ea4-5bc26f8880c7.PNG)
+![co03-result](https://user-images.githubusercontent.com/44318904/49877850-a949b000-fe69-11e8-909c-e1eb48b4ac3c.PNG)
