@@ -1,0 +1,45 @@
+<mvc:View
+   controllerName="THproject.controller.name"
+   xmlns="sap.m"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc">
+      <App>
+      <pages>
+      <Page title='TaeHyeongPractice'>
+            <Panel headerText='CO03 in OpenUI5'>
+                  <content>
+			<Text 
+				text='Order Number'
+				width='200px'
+			/>
+
+   			<Input
+      		width='100px'/>
+      
+       		<html:hr></html:hr>
+			<html:br></html:br>
+            <html:br></html:br>
+            <html:div>
+  			<RadioButton
+   			groupName="group"
+   			text='Order entered'
+   			/>
+   			<RadioButton
+   			groupName="group"
+   			text='Order sub-tree'
+   			/>
+   			<RadioButton
+   			groupName="group"
+   			text='Collective order'
+   			/>
+   			<RadioButton
+   			groupName="group"
+   			text='Display overview'
+   			/>
+			</html:div>
+            </content>
+            </Panel>
+         </Page>
+      </pages>
+   </App>
+</mvc:View>
