@@ -1,0 +1,52 @@
+  {
+  "_version": "1.12.0",
+  "sap.app": {
+  
+// 프로젝트명
+	"id": "THproject",      
+// 프로젝트타입
+	"type": "application",
+// i18n 다국어 시스템을 구성하는 환경을 설정하는 것.
+	"i18n": "/i18n/i18n.properties",
+// 타이틀 description, application version
+	"title": "{{appTitle}}",
+	"description": "{{appDescription}}",
+	"applicationVersion": {
+	  "version": "1.0.0"
+	}
+},
+// 테크놀로지 설정.
+  "sap.ui": {
+	"technology": "UI5",
+	"deviceTypes": {
+		"desktop": true,
+		"tablet": true,
+		"phone": true
+	}
+},
+// rootview 호출
+  "sap.ui5": {
+	"rootView": {
+		"viewName": "THproject.view.name",
+		"type": "XML",
+		"async": true,
+		"id": "app"
+	},
+	"dependencies": {
+	  "minUI5Version": "1.30",
+	  "libs": {
+		"sap.m": {}
+	  }
+	},
+	"models": {       
+	  "i18n": {
+		"type": "sap.ui.model.resource.ResourceModel",
+		"settings": {
+// 번들이란 다양한 안드로이드 프로그램 사이에서 패싱 데이터를 해주는 것들.
+// i18n.properties 파일로 초기값을 지정한다.
+          "bundleUrl" : "/i18n/i18n.properties"
+		}
+	  }
+	}
+  }
+}

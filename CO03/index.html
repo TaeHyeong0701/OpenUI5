@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+	<script
+         id="sap-ui-bootstrap"
+         src="/resources/sap-ui-core.js"
+// 테마배경을 지정.
+         data-sap-ui-theme="sap_belize"
+// 라이브러리 지정.
+         data-sap-ui-libs="sap.m"
+         data-sap-ui-compatVersion="edge"   
+         data-sap-ui-preload="async"                 
+	 	 data-sap-ui-resourceroots='{"THproject": "./"}' >   
+     </script>
+      <script>
+// 컴포넌트를 호출한다.
+      sap.ui.getCore().attachInit(function () {
+		app : new sap.ui.core.ComponentContainer({
+// THproject 밑의 Component.js를 호출한다.
+             	name: "THproject"
+}).placeAt("content");  //
+      });
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   
+
+   </body>
+</html>
