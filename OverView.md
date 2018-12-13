@@ -4,6 +4,15 @@
 ![openui5](https://user-images.githubusercontent.com/44318904/49745798-226acb00-fce3-11e8-9b68-28adfbe6b98f.png)
 ****
 
+ # USER : TaeHyeong Kim
+ 
+ ### Study Subject 
+- Open UI5 and Web(Javascript, HTML, jQuery) programming
+
+ ### TaeHyeong's Study Proceeding
+![fioristudy](https://user-images.githubusercontent.com/44318904/49878969-473e7a00-fe6c-11e8-8673-837f7a8536bc.gif)
+
+
 ## 설치 순서
 #### 1. JDK 다운로드.
  -- [ORACLE JDK 설치 홈페이지](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
