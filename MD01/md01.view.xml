@@ -1,0 +1,151 @@
+<mvc:View
+   controllerName="THproject.controller.md01"
+   xmlns="sap.m"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:core="sap.ui.core"
+   xmlns:mvc="sap.ui.core.mvc" >
+      <App>
+      <pages>
+      <Page title='MD01 in OpenUI5 By TaeHyeong'>
+      <Panel headerText='MRP Run'>
+         <content>
+           <Button
+            id="myEnter" 
+            icon="sap-icon://sys-enter"
+            press="onSysenter"/>
+              <Button 
+            id="myExit"
+            icon="sap-icon://system-exit"
+            press="onSysexit"/>
+              <Button
+            id="myCancel"
+            icon="sap-icon://sys-cancel"
+            press="onSyscancel"/>
+            <html:br></html:br>
+         <Button
+            id="helloDialogButton"
+            icon="img/icons8-sap-30.png"
+            press="onOpenDialog"
+            class="sapUiSmallMarginEnd"
+            width="40%"/>
+            <html:br></html:br>
+			<Text 
+				text='Scope of planning'
+				width='200px'
+			/>
+   			<Input
+      		width='100px'/>
+      		<Text 
+				text='Plant'
+				width='200px'
+			/>
+			<Input
+      		width='100px'/>
+			<html:br></html:br>
+            <html:br></html:br>
+            <html:hr></html:hr>
+			<html:div>
+			<FormattedText
+				htmlText="MRP Control Parameters"
+				class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+			
+			</html:div>
+			
+			<!-- 1.  -->
+			<Text 
+				text='Processing key'
+				width='200px'
+			/>
+   			<Input
+   			width='400px'
+   			value='NETCH'
+      		description="Net change for total horizon"/>
+			<html:br></html:br>
+			
+			<!-- 2.  -->
+			<Text 
+				text='Create purchase req.'
+				width='200px'
+			/>
+   			<Input
+   			width='600px'
+   			value='2'
+      		description="purchase requisition in opening period"/>
+			<html:br></html:br>
+            <!-- 3.  -->
+			<Text 
+				text='Schedule lines'
+				width='200px'
+			/>
+   			<Input
+   			width='400px'
+   			value='3'
+      		description="Schedule lines"/>
+			<html:br></html:br>
+            <!-- 4.  -->
+			<Text 
+				text='Create MRP list'
+				width='200px'
+			/>
+   			<Input
+   			width='400px'
+   			value='1'
+      		description="MRP list"/>
+			<html:br></html:br>
+            <!-- 5.  -->
+			<Text 
+				text='Planning mode'
+				width='200px'
+			/>
+   			<Input
+   			width='600px'
+   			value='1'
+      		description="Adapt planning data(normal data)"/>
+			<html:br></html:br>            
+            <!-- 6.  -->
+			<Text 
+				text='Scheduling'
+				width='200px'
+			/>
+   			<Input
+   			width='600px'
+   			value='1'
+      		description="Basic data will be terminated"/>
+			<html:br></html:br>     
+			
+<!-- 			7. Date picker       -->
+			<DatePicker />
+
+
+			<html:br></html:br>     
+   			<CheckBox
+   			text='Parellel processing'
+   			/>
+   			<html:br></html:br>
+   			   			<CheckBox
+   			text='Display material list'
+   			/>
+   			   			<html:br></html:br>
+   			<Text 
+				text='User exit key'
+				width='200px'
+			/>
+   			<Input
+      		width='100px'/>
+      					<html:br></html:br>    		
+      		<Text 
+				text='User exit parameter'
+				width='200px'
+			/>
+   			<Input
+      		width='600px'/>
+
+			<html:br></html:br>    			
+   			<html:img id="book" src="img/icons8-sap-48.png" align="right" press="onToggle"></html:img>
+
+            </content>
+            </Panel>
+         </Page>
+      </pages>
+   </App>
+</mvc:View>
