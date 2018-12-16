@@ -3,15 +3,21 @@
 **SAPUI5's Base=HTML 5 + jQuery + Javascript**
 ![openui5](https://user-images.githubusercontent.com/44318904/49745798-226acb00-fce3-11e8-9b68-28adfbe6b98f.png)
 ****
+### Benefit VS normal WebProgramming
+- 모듈화 및 보안성 강화 부분.
+- SAP에서 제공하는 다양한 UI 부분도 활용 가능
+- 기존 제이쿼리 및 자바스크립트와 거의 완벽하게 호환됨
+- SAP GUI와의 연계성이 높아질 것으로 기대됨.
+****
 
  # USER : TaeHyeong Kim
  
  ### Study Subject 
 - Open UI5 and Web(Javascript, HTML, jQuery) programming
-
+****
  ### TaeHyeong's Study Proceeding
 ![fioristudy](https://user-images.githubusercontent.com/44318904/49878969-473e7a00-fe6c-11e8-8673-837f7a8536bc.gif)
-
+****
 
 ## 설치 순서
 #### 1. JDK 다운로드.
