@@ -14,10 +14,10 @@
  
  ### Study Subject 
 - Open UI5 and Web(Javascript, HTML, jQuery) programming
-
+****
  ### TaeHyeong's Study Proceeding
 ![fioristudy](https://user-images.githubusercontent.com/44318904/49878969-473e7a00-fe6c-11e8-8673-837f7a8536bc.gif)
-
+****
 
 ## 설치 순서
 #### 1. JDK 다운로드.
