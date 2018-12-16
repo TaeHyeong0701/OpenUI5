@@ -1,0 +1,38 @@
+<mvc:View
+	controllerName="THproject.controller.navigation"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.tnt"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:m="sap.m"
+	height="100%">
+
+<!-- 첫 번째 column영역 -->
+<html:div style="float: left; width: 400px;">
+<m:Button icon="sap-icon://menu2"
+			  press="onCollapseExpandPress" />
+	<NavigationList id="navigationList" width="320px">
+		<NavigationListItem
+			text="Item 1"
+			icon="sap-icon://employee">
+			<NavigationListItem text="Sub Item 1"/>
+			<NavigationListItem text="Sub Item 2"/>
+			<NavigationListItem text="Sub Item 3"/>
+			<NavigationListItem text="Sub Item 4"/>
+		</NavigationListItem>
+		<NavigationListItem
+				text="Item 2"
+				icon="sap-icon://building">
+			<NavigationListItem text="Sub Item 1"/>
+			<NavigationListItem text="Sub Item 2"/>
+			<NavigationListItem text="Sub Item 3"/>
+			<NavigationListItem text="Sub Item 4"/>
+		</NavigationListItem>
+	</NavigationList>
+</html:div>
+
+<!-- 두 번째 column영역 -->
+<html:div style="float: left; width: 33%;">
+<!-- 뷰안에서 또다른 뷰 호출 -->
+<mvc:XMLView viewName="THproject.view.CO03"/>
+</html:div>
+</mvc:View>
