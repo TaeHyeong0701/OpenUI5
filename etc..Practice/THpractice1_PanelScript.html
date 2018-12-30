@@ -1,0 +1,55 @@
+<script>
+//*****************************************************************
+// 패널 생성하여, TextHeader 출력 및 하단부에  버튼 출력.
+//*****************************************************************
+var oPanel = new sap.m.Panel("header",{
+	height : "100px",
+    headerText : 'TaeHyeong Portpolio',
+    content : [ 
+    	//*********************************************************
+    	// 첫 번째 버튼 (SAP 로고 버튼, Press 기능으로 mySAPkorea Function 호출)
+    	//*********************************************************
+        new sap.ui.commons.Button({
+        	icon: "sap-icon://sap-logo-shape",
+            press: function() {
+            	mySAPkorea();
+            }, 
+        }),
+    	//*********************************************************
+    	// 두 번째 버튼 (home 아이콘 버튼, Press 기능으로 myhome Function 호출)
+    	//*********************************************************
+        new sap.ui.commons.Button({
+            icon: "sap-icon://home", 
+            press: function() {
+            	 myHome();
+            }, 
+        }),
+    	//*********************************************************
+    	// 두 번째 버튼 (prev-page 아이콘 버튼, Press 기능으로 myBack Function 호출)
+    	//*********************************************************
+        new sap.ui.commons.Button({
+            icon: "sap-icon://sys-prev-page", 
+            press: function() {
+                myBack();
+            }, 
+        }),
+    	//*********************************************************
+    	// 세 번째 버튼 (next-page 아이콘 버튼, Press 기능으로 myForward Function 호출)
+    	//*********************************************************
+        new sap.ui.commons.Button({
+            icon: "sap-icon://sys-next-page", 
+            press: function() {
+            	myForward();
+            }, 
+        }),
+
+    ]
+});
+//******************************************************************
+// html의 content id(여기는 div 영역으로 주었음.)에 할당하여, 최종적으로 패널을 위치시켜 출력함.
+//******************************************************************
+oPanel.placeAt("content");
+
+
+//....
+</script>
