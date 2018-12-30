@@ -1,3 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+<title>TaeHyeong's Portpolio</title>
+<!-- Load UI5, select gold reflection theme and the "commons" and "table" control libraries -->
+  <script id='sap-ui-bootstrap' type='text/javascript'
+    src='https://openui5.hana.ondemand.com/resources/sap-ui-core.js'
+    data-sap-ui-theme="sap_belize" 
+    data-sap-ui-xx-bindingSyntax="complex"   
+    data-sap-ui-libs='sap.ui.commons,sap.ui.table, sap.m'>
+	 data-sap-ui-resourceroots='{"http://taehyeong.dothome.co.kr/THproject": "./"}'  >
+  </script>
+
+<script>
+
+function mySAPkorea() {
+	window.open="https://www.sap.com/korea/index.html";
+}
+
+function myHome() {
+	location.href="http://taehyeong.dothome.co.kr/THproject/WebContent/Mainboard.html";
+}
+function myBack() {
+	history.back();
+}
+function myForward() {
+	history.forward();
+}
+</script>
+
+
 <script>
 //*****************************************************************
 // 패널 생성하여, TextHeader 출력 및 하단부에  버튼 출력.
@@ -53,3 +86,8 @@ oPanel.placeAt("content");
 
 //....
 </script>
+   </head>
+    <body class="sapUiBody" role="application">
+        <div id="content"></div>
+    </body>
+</html>
